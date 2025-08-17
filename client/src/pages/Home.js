@@ -1,0 +1,10 @@
+function Home() {
+    return (
+       // 앞으로 이곳에 우리 웹사이트의 핵심 내용이 들어갑니다.
+       <div className="footer-container ">
+          <p>홈GGGG</p>
+       </div>
+    );
+ }
+ 
+ export default Home;
