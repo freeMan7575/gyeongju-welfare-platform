@@ -1,0 +1,31 @@
+/* src/components/Header.css */
+
+/* 헤더 전체를 감싸는 컨테이너 */
+.header-container {
+    display: flex; /* 내부 요소들을 가로로 배치 */
+    justify-content: space-between; /* 요소들 사이에 공간을 균등하게 배분 */
+    align-items: center; /* 세로 중앙 정렬 */
+    padding: 10px 20px; /* 안쪽 여백 (위아래 10px, 좌우 20px) */
+    background-color: #f8f9fa; /* 배경색 */
+    border-bottom: 1px solid #dee2e6; /* 아래쪽 테두리 선 */
+  }
+  
+  /* 로고 (h1 태그) 스타일 */
+  .header-logo {
+    font-size: 24px; /* 글자 크기 */
+    font-weight: bold; /* 글자 굵기 */
+    color: #343a40; /* 글자 색 */
+  }
+  
+  /* 메뉴 (a 태그)들을 감싸는 공간 */
+  .header-menu {
+    display: flex; /* 메뉴들을 가로로 배치 */
+    gap: 20px; /* 메뉴들 사이의 간격 */
+  }
+  
+  /* 각각의 메뉴 (a 태그) 스타일 */
+  .header-menu a {
+    text-decoration: none; /* 밑줄 제거 */
+    color: #495057; /* 글자 색 */
+    font-size: 16px; /* 글자 크기 */
+  }
